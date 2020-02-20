@@ -13,7 +13,7 @@ function theBeatlesPlay(arrMusic,arrInstr) {
 function johnLennonFacts(arr) {
   let facts = [];
   let i = 0;
-  while(i <=arr.length) {
+  while(i <arr.length) {
      let str = arr[i] + '!!!';
      facts.push(str);
      i++;
@@ -21,16 +21,16 @@ function johnLennonFacts(arr) {
   return facts;
 }
   
-function iLoveTheBeatles(num) {
-    let phrase = [];
-    let str = 'I love the Beatles!';
-    i = 0;
-    // console.log(str.length)
-    do {
-    phrase.push(str[i]);
-    num++;
-    i++;
-    }
-    while (num < 15)
-    return phrase;
-  }
+// function iLoveTheBeatles(num) {
+//     let phrase = [];
+//     let str = 'I love the Beatles!';
+//     i = 0;
+//     // console.log(str.length)
+//     do {
+//     phrase.push(str[i]);
+//     num++;
+//     i++;
+//     }
+//     while (num < 15)
+//     return phrase;
+//   }
