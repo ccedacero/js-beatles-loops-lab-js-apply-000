@@ -25,9 +25,8 @@ function iLoveTheBeatles(num) {
     let phrase = [];
     let str = 'I love the Beatles!';
     let i = 0;
-    // console.log(str.length)
     do {
-    phrase.push(str[i]);
+    phrase.push(str);
     num++;
     i++;
     }
