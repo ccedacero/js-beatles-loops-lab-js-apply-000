@@ -24,7 +24,7 @@ function johnLennonFacts(arr) {
 function iLoveTheBeatles(num) {
     let phrase = [];
     let str = 'I love the Beatles!';
-    i = 0;
+    let i = 0;
     // console.log(str.length)
     do {
     phrase.push(str[i]);
