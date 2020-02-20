@@ -57,10 +57,22 @@ function johnLennonFacts(arr) {
 
 
 
+do {
+  i = i + 1;
+  result = result + i;
+} while (i < 5);
+
+
 // Create a function `iLoveTheBeatles` which accepts a number as a parameter. 
   function iLoveTheBeatles(num) {
     let phrase = [];
-    do-while()
+    let str = 'I love the Beatles!';
+    do {
+      i = i + 1;
+      phrase
+      
+    }
+    while (num < 15)
   }
 
 //     * The function should create a variable that stores an empty array. 
@@ -68,6 +80,8 @@ function johnLennonFacts(arr) {
 //       Beatles!"` to the empty array. 
 //     * The loop should then increment the number passed in as a parameter. The
 //       condition of the loop should check to see that the parameter number is
-//       less than `15`. It should contain a number of strings that represents the
+//       less than `15`. 
+
+It should contain a number of strings that represents the
 //       difference between the input number and `15`.
 //     * Return the array with the strings `"I love the Beatles!"`.
