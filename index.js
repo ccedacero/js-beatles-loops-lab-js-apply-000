@@ -13,3 +13,15 @@
 //       same sentence for every member of the musicians array. 
 //     * The function should return the array of new strings containing what
 //       instruments each musician plays.
+
+function theBeatlesPlay(arrMusic,arrInstr) {
+  
+  let theyPlay = [];
+  
+  for (let i = 0 ; i < arrMusic.length; i++) {
+    let str = arrMusic[i] + ' plays ' + arrInstr[i];
+    theyPlay.push(str);
+  } return theyPlay;
+}
+
+
