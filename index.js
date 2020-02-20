@@ -24,7 +24,6 @@ function theBeatlesPlay(arrMusic,arrInstr) {
   } return theyPlay;
 }
 
-// Create a function `johnLennonFacts`. 
 
 function johnLennonFacts(arr) {
   let facts = [];
@@ -37,51 +36,17 @@ function johnLennonFacts(arr) {
   return facts;
 }
   
-  
-//     * This function will accept one argument, an array of facts about John
-//       Lennon (note that it might not be exactly the following facts):
-
-//     ```js
-//     const facts = [
-//       "He was the last Beatle to learn to drive",
-//       "He was never a vegetarian",
-//       "He was a choir boy and boy scout",
-//       "He hated the sound of his own voice"
-//     ];
-//     ```
-
-//     * Use a while loop to loop over the facts array and add `"!!!"` to the end of
-//     every fact.
-
-//     * Return an array of strings with exclamation points.
-
-
-
-do {
-  i = i + 1;
-  result = result + i;
-} while (i < 5);
-
-
 // Create a function `iLoveTheBeatles` which accepts a number as a parameter. 
-  function iLoveTheBeatles(num) {
+function iLoveTheBeatles(num) {
     let phrase = [];
     let str = 'I love the Beatles!';
+    i = 0;
+    // console.log(str.length)
     do {
-      i = i + 1;
-      phrase
-      
+    phrase.push(str[i]);
+    num++;
+    i++;
     }
     while (num < 15)
+    return phrase;
   }
-
-//     * The function should create a variable that stores an empty array. 
-//     * Implement a do-while loop inside the function that adds `"I love the
-//       Beatles!"` to the empty array. 
-//     * The loop should then increment the number passed in as a parameter. The
-//       condition of the loop should check to see that the parameter number is
-//       less than `15`. 
-
-It should contain a number of strings that represents the
-//       difference between the input number and `15`.
-//     * Return the array with the strings `"I love the Beatles!"`.
